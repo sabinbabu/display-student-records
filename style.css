@@ -1,0 +1,41 @@
+body {
+  background-color: antiquewhite;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+/* header section */
+header {
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  background-color: antiquewhite;
+}
+
+/* individual card */
+.card {
+  background-color: rgb(31, 41, 55);
+  padding: 3rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 20rem;
+  height: 25rem;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px white;
+}
+
+table {
+  line-height: 3rem;
+}
